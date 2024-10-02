@@ -1,0 +1,156 @@
+@import url("https://fonts.cdnfonts.com/css/inter");
+
+/* Cores
+Links do Menu no Topo, texto acima do valor, texto em baixo das fotos: #505050
+Botão, R$ valor, fundo da imagem e etc: #2E68FF
+Títulos maiores: #040315
+Fundo do rodapé: #1A1A1A
+*/
+
+/* Tamanho das fontes 
+Boat Stone Bluetooth Speaker - 54px
+Desfrute de uma conectividade perfeita com a mais recente tecnologia - 64px
+Valor, preço - 64px
+Bluetooth 5.3 - 20px
+Textos e paragrafos - 18px
+Itens do menu - 16px
+Leve sua música para qualquer lugar com este alto-lante compacto e leve - 54px
+*/
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: "Inter", sans-serif;
+}
+
+/* Faça seu código aqui 👇 */
+
+#header-principal {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 20px 0;
+	width: 1216px;
+	margin:auto;
+}
+
+#top-menu {
+	display: flex;
+	list-style: none;
+	gap: 48px;
+	align-items: center;
+}
+
+#top-menu li a {
+	color: black;
+	text-decoration: none;
+}
+
+#section-principal {
+	width: 1216px;
+	margin: auto;
+	font-size: 18px;
+}
+
+div.primeira-parte {
+	display: flex;
+	gap: 30px;
+}
+
+div.primeira-parte aside {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	gap: 30px;
+}
+
+.titulo-grande {
+	font-size: 54px;
+	font-weight: bold;
+}
+
+h2.preco-grande {
+	font-size: 54px;
+	font-weight: bold;
+	color: #2E68FF;
+}
+
+small.condicao {
+	color: #a8a8a8;
+}
+
+button.comprar {
+	color: white;
+	background-color: #2E68FF;
+	font-weight: bold;
+	border: 0px;
+	padding: 10px 0;
+	max-width: 200px;
+	border-radius: 5px;
+}
+
+div.spacer {
+	height: 100px;
+}
+
+section.bottom-section {
+	display: flex;
+	justify-content: space-between;
+}
+
+section.top-section {
+	text-align: center;
+	padding: 0 20%;
+}
+
+.prim-fone, .segun-fone, .terc-fone {
+	text-align: center;
+	color: #505050;
+}
+
+.texto-azul {
+	font-weight: bold;
+	color: #2E68FF;
+}
+
+footer {
+	background-color: #1A1A1A;
+	display: flex;
+	justify-content: center;
+	padding: 40px 0;
+}
+
+div.container-footer {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	width: 1216px;
+}
+
+ul.menu-final {
+	list-style: none;
+	display: flex;
+	gap: 48px;
+}
+
+ul.menu-final a {
+	text-decoration: none;
+	color: white;
+}
+
+div.terceira-parte {
+	display: flex;
+	gap: 70px;
+	background-color: #2E68FF;
+	padding: 80px;
+}
+
+div.terceira-parte aside{
+	color: white;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
